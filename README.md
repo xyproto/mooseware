@@ -16,7 +16,7 @@ import (
 	"net/http"
 
 	"github.com/codegangsta/negroni"
-	"github.com/xyproto/middleskel"
+	"github.com/xyproto/mooseware"
 )
 
 func main() {
