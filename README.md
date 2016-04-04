@@ -5,7 +5,7 @@ Simple example/skeleton code for writing a Negroni middleware handler.
 
 Usage:
 
-```
+~~~ go
 package main
 
 import (
@@ -34,4 +34,4 @@ func main() {
 	// Serve
 	n.Run(":9030")
 }
-```
+~~~
