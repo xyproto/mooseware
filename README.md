@@ -1,17 +1,18 @@
 Mooseware
 =========
 
-Simple example/skeleton code for writing a Negroni middleware handler.
-
 [![Build Status](https://travis-ci.org/xyproto/mooseware.svg?branch=master)](https://travis-ci.org/xyproto/mooseware)
 
-Usage:
+Simple example/skeleton code for writing a Negroni middleware handler.
+
+Usage
+-----
 
 ~~~ go
 package main
 
 import (
-	"fmt"
+	"log"
 	"net/http"
 
 	"github.com/codegangsta/negroni"
@@ -22,7 +23,7 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
-		fmt.Fprintf(w, "Bafflesnark!")
+		log.Fprintf(w, "Bafflesnark!")
 	})
 
 	n := negroni.Classic()
