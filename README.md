@@ -3,6 +3,8 @@ Mooseware
 
 Simple example/skeleton code for writing a Negroni middleware handler.
 
+[![Build Status](https://travis-ci.org/xyproto/browserspeak.svg?branch=master)](https://travis-ci.org/xyproto/browserspeak)
+
 Usage:
 
 ~~~ go
