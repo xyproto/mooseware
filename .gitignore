@@ -21,3 +21,12 @@ _testmain.go
 
 *.exe
 *.test
+
+# Editor
+*~
+
+# nfs "#¤"#¤%"#¤
+.nfs*
+
+# Binaries
+example/example
