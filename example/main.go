@@ -12,7 +12,7 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
-		fmt.Fprintf(w, "Bafflesnark!")
+		fmt.Fprint(w, "Bafflesnark!")
 	})
 
 	n := negroni.Classic()

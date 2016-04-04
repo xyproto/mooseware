@@ -12,7 +12,7 @@ Usage
 package main
 
 import (
-	"log"
+	"fmt"
 	"net/http"
 
 	"github.com/codegangsta/negroni"
@@ -23,7 +23,7 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
-		log.Fprintf(w, "Bafflesnark!")
+		fmt.Fprint(w, "Bafflesnark!")
 	})
 
 	n := negroni.Classic()
