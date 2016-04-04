@@ -1,4 +1,5 @@
-middleskel
-==========
+Mooseware
+=========
 
-Skeleton for writing a Negroni middleware handler
+Simple example/skeleton code for writing a Negroni middleware handler
+
