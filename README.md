@@ -3,7 +3,7 @@ Mooseware
 
 [![Build Status](https://travis-ci.org/xyproto/mooseware.svg?branch=master)](https://travis-ci.org/xyproto/mooseware)
 
-Simple example/skeleton code for writing a Negroni middleware handler.
+Simple example/skeleton code for writing a middleware handler.
 
 Middleware example
 ------------------
