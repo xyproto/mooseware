@@ -1,7 +1,7 @@
 Mooseware
 =========
 
-[![Build Status](https://travis-ci.org/xyproto/mooseware.svg?branch=master)](https://travis-ci.org/xyproto/mooseware)
+[![Build Status](https://travis-ci.com/xyproto/mooseware.svg?branch=master)](https://travis-ci.com/xyproto/mooseware)
 
 Simple example/skeleton code for writing a middleware handler.
 
